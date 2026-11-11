@@ -1,0 +1,8 @@
+from pico2d import close_canvas, open_canvas
+
+import game_framework
+import play_mode
+
+open_canvas(1600, 600)
+game_framework.run(play_mode)
+close_canvas()
